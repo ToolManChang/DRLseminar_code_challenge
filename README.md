@@ -32,7 +32,7 @@ The environment that supports alphazero agent in rllib has to implement "get_sta
 ```
 The performance of monte carlo tree search (MCTS) policy is shown in the figure below:
 ![monte_carlo](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/monte_carlo.png)
-We can see that MCTS can achieve at most around 0.7 learning rate. As this model-based tree search also has access to the full state of the environment, so it can be seen to "cheat" compared with other agents, so we can guess based on this result that for normal blackjack we can at most achieve winning rates around 0.7.
+We can see that MCTS can achieve at most around 0.7 learning rate. As this model-based tree search also has access to the full state of the environment, so it can be seen to "cheat" compared with other agents, so we can guess based on this result that for normal blackjack we can never achieve winning rates higher than 0.7.
 
 Even learning from this MCTS policy, the Alphazero agent can not achieve as good as MCTS does. The learning curve for Alphazero is:
 ![alphazero](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/alpha_zero.png)
