@@ -14,5 +14,6 @@ Here we trained the agent with default configurations in 120000 time steps, the 
 ```bash
 SAC achieved the following win rates:  [1.0, 0.6108786610878661, 1.0, 0.9]
 ```
-The learning curve is shown bellow. 
+The learning curves are shown bellow. 
 ![learning curve](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/learning%20curve.png)
+It can be seen that the normal blackjack is the hardest problem as the agent can at most achieve winning rate of around 0.6-0.65.
