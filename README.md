@@ -14,5 +14,5 @@ Here we trained the agent with default configurations in 120000 time steps, the 
 ```bash
 SAC achieved the following win rates:  [1.0, 0.6108786610878661, 1.0, 0.9]
 ```
-The learning curve is shown bellow, where the gray, 
-![Learning curve](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/Screenshot%20from%202020-05-17%2012-31-59.png)
+The learning curve is shown bellow. 
+![learning curve](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/learning%20curve.png)
