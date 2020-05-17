@@ -36,3 +36,4 @@ We can see that MCTS can achieve at most around 0.7 learning rate. As this model
 
 Even learning from this MCTS policy, the Alphazero agent can not achieve as good as MCTS does. The learning curve for Alphazero is:
 ![alphazero](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/alpha_zero.png)
+The final policy only achieve winning rate around 0.6, because it has no access to the full state as MCTS does. In this way, SAC still performs better with high uncertainty in the environment.
