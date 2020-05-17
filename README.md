@@ -18,7 +18,7 @@ The learning curves are shown bellow.
 ![learning curve](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/learning%20curve.png)
 It can be seen that the normal blackjack is the hardest problem as the agent can at most achieve winning rate of around 0.6-0.65. Considering the normal blackjack are quite uncertain, it is not possible to win all the time, so we want to have a estimation on the upper bound of best performance that a agent can get using model-based agent.
 ## AlphaZero agent
-The environment that supports alphazero agent in rllib has to implement "get_state" and "set_state" methods. The modified environment "BlackjackEnv_zero" is implemented in the "blackjack.py" python file. With this modified environment, the agent is able to access the full state of current environment (rather than only the observation) and builds the monte carlo tree. The config of monte carlo tree search is:
+We only tried Alphazero agent in the noraml Blackjack environment. The environment that supports alphazero agent in rllib has to implement "get_state" and "set_state" methods. The modified environment "BlackjackEnv_zero" is implemented in the "blackjack.py" python file. With this modified environment, the agent is able to access the full state of current environment (rather than only the observation) and builds the monte carlo tree. The config of monte carlo tree search is:
 ```bash
     "mcts_config": {
         "puct_coefficient": 1.5,
