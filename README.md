@@ -6,4 +6,11 @@ As ray 0.8.0 provided in the original setup doesn't support SAC with discrete ac
 ```bash
 conda install pip
 pip install ray==0.8.3
+pip install ray[rllib]==0.8.3
+```
+## SAC agent
+Support of SAC agent for discrete action spaces in RLlib is implemented on top of: [1] Soft Actor-Critic for Discrete Action Settings - Petros Christodoulou https://arxiv.org/pdf/1910.07207v2.pdf
+Here we trained the agent with default configurations in 120000 time steps, the results for the four environments are:
+```bash
+SAC achieved the following win rates:  [1.0, 0.6108786610878661, 1.0, 0.9]
 ```
