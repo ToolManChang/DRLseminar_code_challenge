@@ -2,13 +2,6 @@
 In this project, two agents are tried with Rllib for this task: Soft Actor Critic (SAC) for discrete action space and AlphaZero. The self-implemented notebook version of SAC for discrete action space is still being tested.
 ## Jupyter notebook implementation of SAC for discerete actions
 The Jupyter notebook "SAC_discrete" is implemented on top of: [1] Soft Actor-Critic for Discrete Action Settings - Petros Christodoulou https://arxiv.org/pdf/1910.07207v2.pdf. The implemented algorithm didn't include twin Q network technique. The algorithm is still under testing, please wait for further update.
-## Setup for rllib
-As ray 0.8.0 provided in the original setup doesn't support SAC with discrete action space, we use ray 0.8.3 instead. We can run the following command after install and create the environment "drl-seminar" or modify the conda_env.yml before create the environment.
-```bash
-conda install pip
-pip install ray==0.8.3
-pip install ray[rllib]==0.8.3
-```
 ## SAC agent (Rllib)
 This agent is provided from Rllib 0.8.3, which is tried in the "evaluation.py". Support of SAC agent for discrete action spaces in RLlib is also implemented on top of: [1]
 Here we trained the agent with default configurations in 120000 time steps, the results for the four environments are:
