@@ -1,9 +1,9 @@
 # DRLseminar_code_challenge
 In this project, two agents are tried with Rllib for this task: Soft Actor Critic (SAC) for discrete action space and AlphaZero. The self-implemented notebook version of SAC for discrete action space is still being tested.
 ## Jupyter notebook implementation of SAC for discerete actions
-The Jupyter notebook "SAC_discrete.ipynb" is implemented on top of: [1] Soft Actor-Critic for Discrete Action Settings - Petros Christodoulou https://arxiv.org/pdf/1910.07207v2.pdf. The implemented algorithm didn't include twin Q network technique. The result is printed in the notebook. The following winning rate is calculated with last 100 testing episodes. The winning rate for normal blackjack is higher than the baseline PPO. 
+The Jupyter notebook "SAC_discrete.ipynb" is implemented on top of: [1] Soft Actor-Critic for Discrete Action Settings - Petros Christodoulou https://arxiv.org/pdf/1910.07207v2.pdf. The implemented algorithm didn't include twin Q network technique. The result is printed in the notebook. The following winning rate is calculated with last 200 testing episodes. The winning rate for normal blackjack is higher than the baseline PPO. 
 ```bash
-[0.95, 0.55, ]
+[0.9, 0.52, ]
 ```
 ## SAC agent (Rllib)
 This agent is provided from Rllib 0.8.3, which is tried in the "evaluation.py". Support of SAC agent for discrete action spaces in RLlib is also implemented on top of: [1]
