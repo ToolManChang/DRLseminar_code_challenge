@@ -8,12 +8,15 @@ The Jupyter notebook "SAC_discrete.ipynb" is implemented on top of: [1] Soft Act
 Learning rates for (one dealer):
 
 ![learning curve (one dealer)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/one_dealer.png)
+
 Learning rates for (normal):
 
 ![learning curve (normal)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/normal.png)
+
 Learning rates for (all two):
 
 ![learning curve (all two)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/all_two.png)
+
 Learning rates for (random):
 
 ![learning curve (random)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/random.png)
