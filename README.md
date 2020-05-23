@@ -5,6 +5,12 @@ The Jupyter notebook "SAC_discrete.ipynb" is implemented on top of: [1] Soft Act
 ```bash
 [0.9, 0.52, 0.0, 0.505]
 ```
+Learning rates:
+![learning curve (one dealer)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/one_dealer.png)
+![learning curve (normal)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/normal.png)
+![learning curve (all two)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/all_two.png)
+![learning curve (random)](https://github.com/ToolManChang/DRLseminar_code_challenge/blob/master/DRL_Seminar_BlackJack/random.png)
+
 ## SAC agent (Rllib)
 This agent is provided from Rllib 0.8.3, which is tried in the "evaluation.py". Support of SAC agent for discrete action spaces in RLlib is also implemented on top of: [1]
 Here we trained the agent with default configurations in 120000 time steps, the results for the four environments are:
